@@ -52,8 +52,7 @@ find_package(CEF REQUIRED)
 add_subdirectory(${CEF_LIBCEF_DLL_WRAPPER_PATH} libcef_dll_wrapper)
 
 # Include sample application targets (executes <target>/CMakeLists.txt).
-add_subdirectory(${CEF_ROOT}/cefclient)
-add_subdirectory(${CEF_ROOT}/cefsimple)
+add_subdirectory(exacore-cef)
 
 # TODO: Include other application targets here.
 
